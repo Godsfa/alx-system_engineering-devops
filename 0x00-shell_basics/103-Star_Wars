@@ -1,0 +1,2 @@
+#!/bin/bash
+wget -q -O- http://www.asciimation.co.nz/_img/starwars.txt
