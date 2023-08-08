@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -c1 | tr -d '\n' ; echo
+find . -type f -name '*.gif' -exec basename {} \; | cut -f 1 -d '.' | tr '[:upper:]' '[:lower:]' | sort -f -d | tr '[:lower:]' '[:upper:]'; echo
