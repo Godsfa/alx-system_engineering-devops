@@ -1,2 +1,2 @@
 #!/bin/bash
-while read line; do decoded+="${line:0:1}"; done && echo "$decoded"
+cut -c1 | tr -d '\n' ; echo
